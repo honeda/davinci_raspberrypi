@@ -53,7 +53,7 @@ def setColor(color):
     p_G.ChangeDutyCycle(G_val)
     p_B.ChangeDutyCycle(B_val)
 
-    print(f"color_msg: R={R_val}, G={G_val}, B={B_val}"
+    print(f"color_msg: R={R_val}, G={G_val}, B={B_val}")
 
 def main():
     while True:
