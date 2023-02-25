@@ -8,7 +8,7 @@ pins = {"Red": 17, "Green": 18, "Blue": 27}
 
 
 def setup():
-    global p_R, p_G, P_B
+    global p_R, p_G, p_B
     # Set the GPIO models to BCM Numbering
     GPIO.setmode(GPIO.BCM)
     # Set all ledPin's mode to output and initial level to High(3.3v)
