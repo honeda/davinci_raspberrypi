@@ -2,7 +2,7 @@ import RPi.GPIO as GPIO
 import time
 
 # Set up a color table in Hexadecimal
-COLOR = [0xFF000, 0xFFFF00, 0x40E0D0, 0x9ACD32]
+COLOR = [0xFF0000, 0xFFFF00, 0x40E0D0, 0x9ACD32]
 # Set pins' channels with dictionary
 pins = {"Red": 17, "Green": 18, "Blue": 27}
 
